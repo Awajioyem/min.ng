@@ -20,12 +20,11 @@
     </div>
 
     <header>
-        <div class="toggle">
+        <div class="toggle" id="toggle">
             <span class="one"></span>
             <span class="two"></span>
             <span class="three"></span>
         </div>
-
         <div class="logo">
             <img src="assets/img/logo-single.jpeg" alt="logo-image" width="60" height="30" />
         </div>
@@ -51,7 +50,7 @@
 
         <div class="menu flex">
             <!-- side-navbar -->
-            <div class="side-nav">
+            <div class="side-nav" id="side-nav">
                 <div class="flex nav-head">
                     <img src="assets/img/profile.png" width="70" height="70" />
 
@@ -91,13 +90,14 @@
             <!-- profile -->
             <div class="profile">
 
-                <div class="progess flex">
+                <div class="progress flex">
                     <h2 class="green">Let's setup your store</h2>
 
 
-                    <div class="container">
-                        <div class="progress progress-moved">
-                            <div class="progress-bar">
+                    <div class="content">
+                        <p>10% complete</p>
+                        <div class="progress-bar">
+                            <div class="bar" style="width: 10%;">
                             </div>
                         </div>
                     </div>
@@ -131,9 +131,11 @@
                                         <img id="image-upload" src="assets/img/icons/upload.png" width="100" height="100">
                                     </div>
                                     <div class="upload-right">
-                                        <p data-no="2">Upload an image of your certificate</p>
-                                        <label class="upload" for="upload">Select file</label>
-                                        <input id="upload" onchange="myImage()" type="file">
+                                        <p data-no="2">Upload an image of your <br> certificate</p>
+                                        <div class="upload">
+                                            <label for="upload">Select file</label>
+                                            <input id="upload" onchange="myImage()" type="file">
+                                        </div>
                                     </div>
                                 </div>
                                 <br><br>
@@ -164,7 +166,7 @@
         </div>
 
     </div>
-
+    <script src="assets/js/jquery-1.10.2.min.js"></script>
     <script src="assets/js/app.js"></script>
 </body>
 

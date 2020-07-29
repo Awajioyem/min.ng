@@ -1,7 +1,7 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 640px) {
   body {
-    background-color: white;
+    background-color: white !important;
   }
   .top {
     display: -webkit-box;
@@ -13,6 +13,7 @@
             flex-direction: row;
     padding-top: 15px;
     padding-left: 16px;
+    background-color: white;
   }
   header .search-div {
     width: 55%;
@@ -22,9 +23,10 @@
     display: none;
   }
   .toggle {
-    margin-right: 40px !important;
+    margin-right: 10px !important;
     margin-top: 12px;
     margin-left: 0 !important;
+    width: 40px !important;
   }
   .toggle span.one {
     width: 30px !important;
@@ -94,6 +96,7 @@
   }
   .banner .banner-text {
     width: 165px !important;
+    left: 83px;
   }
   .banner .banner-text .txt {
     display: none;
@@ -124,8 +127,12 @@
     margin-left: 5px;
     text-align: center;
   }
-  .nav-head {
-    display: none;
+  .nav-head.flex {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin: 0 35px 0 35px;
   }
   .side-nav hr {
     display: none;
@@ -189,6 +196,7 @@
   .profile-form p {
     margin-right: 0 !important;
     font-size: .9em;
+    width: 100% !important;
   }
   .profile-form p::before {
     content: attr(data-no) ". ";
@@ -203,8 +211,8 @@
     width: 290px !important;
   }
   .profile-form-right form button {
-    width: 90% !important;
-    margin-bottom: 20px;
+    width: 290px !important;
+    margin: 0 0 20px 0;
   }
   .profile-form-right form button:first-child {
     margin-top: 30px;
@@ -295,6 +303,13 @@
   }
   .shop {
     margin-top: 13px !important;
+  }
+  .content {
+    margin-left: 0 !important;
+    margin-bottom: 20px;
+  }
+  .content .progress-bar {
+    width: 320px !important;
   }
   .upload-left {
     display: none;
