@@ -1,0 +1,163 @@
+.form-control {
+  width: 40vw;
+}
+
+.c-success {
+  background-color: rgb(103, 161, 2) !important;
+  color: white !important;
+}
+.c-btn {
+  width: 40vw;
+  height: 7vh;
+}
+
+.c-btn-lg {
+  width: 10vw;
+  height: 7vh;
+  padding: 3px;
+}
+
+.c-btn-primary {
+  background-color: #082564;
+  color: white;
+}
+
+.c-text-success {
+  /* background-color: rgb(103,161,2) !important; */
+  color: rgb(103, 161, 2) !important;
+}
+.c-btn-success {
+  background-color: rgb(103, 161, 2) !important;
+  color: white !important;
+}
+.c-btn-primary {
+  background-color: #082564;
+  color: white;
+}
+
+.c-text-success {
+  /* background-color: rgb(103,161,2) !important; */
+  color: rgb(103, 161, 2) !important;
+}
+a {
+  text-decoration: none !important;
+}
+
+.react-datepicker-wrapper,
+.react-datepicker__input-container,
+.react-datepicker__input-container input {
+  width: 100%;
+  padding: 8px;
+}
+.c-btn-lg {
+  width: 10vw;
+  height: 7vh;
+  padding: 3px;
+}
+
+.c-btn-primary {
+  background-color: #082564;
+  color: white;
+}
+
+.c-text-success {
+  /* background-color: rgb(103,161,2) !important; */
+  color: rgb(103, 161, 2) !important;
+}
+.c-btn-success {
+  background-color: rgb(103, 161, 2) !important;
+  color: white !important;
+}
+
+.error-message {
+  color: red;
+}
+
+.check-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.register {
+  height: 100vh;
+  width: 100vh;
+  background: #ffffff;
+  overflow: hidden;
+}
+
+.bg-img {
+  object-fit: scale-down;
+}
+
+.stepper {
+  display: flex;
+  width: 200px;
+}
+
+.step {
+  border-radius: 50%;
+  background: linear-gradient(180deg, #f4730b 0%, #f94501 100%);
+}
+
+.step-active {
+  height: 50px;
+  width: 50px;
+  color: #ffffff;
+}
+
+.step-inactive {
+  height: 20px;
+  width: 20px;
+}
+
+body {
+  font-family: Nunito, Arial, Helvetica;
+  margin: 0;
+}
+
+h1 {
+  font-size: 35px;
+  font-weight: bolder;
+  color: #256c34;
+}
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #256c34;
+}
+h3 {
+  font-size: 1.8rem;
+  font-weight: normal;
+  color: #ffffff;
+}
+
+h4 {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+h5 {
+  font-size: 1.8rem;
+  font-weight: normal;
+  color: black;
+}
+p {
+  font-size: 1rem;
+  font-weight: normal;
+  color: black;
+}
+
+.strong {
+  font-weight: bolder;
+}
+.MuiButton-outlined .MuiButton-label {
+  color: #256c34;
+}
+
+.MuiButton-outlinedPrimary {
+  padding: 14px;
+}
+
+.MuiGrid-grid-xs-10 {
+  margin-bottom: 10px;
+}
